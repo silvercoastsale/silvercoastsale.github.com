@@ -1,0 +1,193 @@
+:root {
+    --primary-color: #333;
+    --accent-color: #28a745;
+    --bg-color: #f8f9fa;
+}
+
+body {
+    background-color: var(--bg-color); 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #333;
+}
+
+header { text-align: center; padding: 3rem 1rem; background: white; border-bottom: 1px solid #eee; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; flex: 1; width: 100%; box-sizing: border-box;}
+
+/* --- Grid & Cards --- */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.thumbnail-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.thumbnail-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
+
+.sold-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #d9534f;
+    color: white;
+    padding: 5px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    z-index: 10;
+}
+
+.thumbnail-card img { width: 100%; height: 220px; object-fit: cover; display: block; }
+.thumbnail-card .info { padding: 15px; text-align: left; }
+.item-name { font-weight: bold; font-size: 1.1rem; display: block; margin-bottom: 5px; }
+.item-price { color: var(--accent-color); font-weight: bold; font-size: 1.2rem; }
+
+/* --- Detail View --- */
+#detail-view { display: none; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+.back-btn { cursor: pointer; color: #007bff; font-weight: 500; text-decoration: none; margin-bottom: 20px; display: inline-block; }
+
+/* --- Gallery & Arrows --- */
+.gallery-container { 
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column; /* This puts thumbnails back UNDER the image */
+    align-items: center;    /* Keeps everything centered */
+    width: 100%;
+    max-width: 600px;
+}
+
+.main-image-wrapper {
+    position: relative;     
+    display: inline-flex;   /* CHANGED: This makes the wrapper only as wide as the image */
+    justify-content: center;
+    margin: 0 auto;         /* Keeps the image-plus-arrows unit centered */
+}
+
+#item-image { 
+    width: 100%; 
+    max-width: 600px;
+    max-height: 500px; 
+    object-fit: contain; 
+    background: #fdfdfd; 
+    border-radius: 8px; 
+    cursor: zoom-in;
+    border: 1px solid #eee;
+    display: block;
+}
+
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.3);
+    color: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-arrow:hover { 
+    background: rgba(0,0,0,0.8); 
+    transform: translateY(-50%) scale(1.1); 
+}
+
+.prev-arrow { left: 10px; }
+.next-arrow { right: 10px; }
+
+/* --- Thumbnails --- */
+.thumbnail-row { 
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 15px; 
+    flex-wrap: wrap;
+}
+
+.thumb-nav { 
+    width: 70px; 
+    height: 70px; 
+    object-fit: cover; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    border: 2px solid transparent;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.thumb-nav:hover { opacity: 1; }
+.thumb-nav.active { border-color: #007bff; opacity: 1; }
+
+/* --- Lightbox --- */
+#lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+}
+#lightbox img { max-width: 90%; max-height: 90%; border-radius: 4px; }
+.close-lightbox {
+    position: absolute;
+    top: 20px; right: 30px;
+    color: white; font-size: 40px; font-weight: bold; cursor: pointer;
+}
+
+/* --- Contact & Forms --- */
+.contact-box {
+    max-width: 500px;
+    margin: 40px auto 0;
+    padding: 25px;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-align: left;
+}
+input, textarea { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; font-family: inherit; }
+button { background: var(--primary-color); color: white; border: none; padding: 15px 20px; border-radius: 4px; cursor: pointer; width: 100%; font-size: 1rem; font-weight: bold; }
+button:hover { background: #000; }
+
+footer { text-align: center; padding: 40px; border-top: 1px solid #ddd; margin-top: 50px; background: #fff; }
+
+/* --- Description Styles --- */
+#item-description { 
+    text-align: left; 
+    max-width: 700px; 
+    margin: 20px auto; 
+}
+
+#item-description ul { 
+    padding-left: 1.5rem; 
+    list-style-type: disc; 
+}
+
+#item-description ol { 
+    padding-left: 1.5rem; 
+    margin: 0.5rem 0;
+    list-style-type: decimal; 
+}
+
+#item-description li { 
+    margin-bottom: 0.5rem; 
+}

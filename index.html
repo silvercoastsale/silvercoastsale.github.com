@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Garage Sale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+    <h1>Silver Coast Sale</h1>
+    <p>Click an item for more photos and contact info!</p>
+</header>
+
+<div class="container">
+    <div id="landing-page" class="item-grid"></div>
+
+    <div id="detail-view">
+        <a class="back-btn" onclick="showHome()">← Back to all items</a>
+        <h2 id="item-title"></h2>
+        <div id="detail-price" class="item-price"></div>
+            
+        <div class="gallery-container">
+            <div class="main-image-wrapper">
+                <img id="item-image" src="" alt="Click to zoom" onclick="openLightbox()">
+            </div>
+            <div id="thumbnail-row" class="thumbnail-row"></div>
+        </div>
+
+        <div id="item-description"></div>
+
+        <div class="contact-box">
+            <h3>Interested? Send a message</h3>
+            <form action="https://formspree.io/f/xnjbnzqe" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea id="message-body" name="message" rows="4" required></textarea>
+                <input type="hidden" name="_subject" id="email-subject">
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div> </div> <div id="lightbox" onclick="closeLightbox()">
+    <span class="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="">
+</div>
+
+<footer>
+    Questions? Call or Text: <br><strong>910 468 861</strong>
+</footer>
+
+<script src="items.js"></script>
+<script src="app.js"></script>
