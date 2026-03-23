@@ -470,25 +470,29 @@ const items = [
     },
     {
         id: 19,
-        title: "Rowenta Iron",
-        price: "€30",
+        title: "Weber MasterTouch Charcoal Grill Kit",
+        price: "€150",
         description: `
-            <p>This is a Rowenta Focus Excel DW5220 iron</p>
+            <p>This is a Weber MaserTouch 57cm (22") Grill in good condition</p>
+	    <p> If you love classic American BBQ this is for you! We're selling it as kit since it includes the grill itself and several accessories, including a Slow 'n Sear, which will help you make the most tender ribs and succulent pulled pork.</p>
             <p>Features:</p>
             <ul>
-                <li>2700 Watts power</li>
-                <li>Excellent steam distribution</li>
-                <li>Easy to fill</li>
-                <li>Precision tip</li>
-                <li>Anti-drip</li>
-                <li>Made in Germany</li>
-                <li>Includes original box and manual</li>
+                <li>57 cm Weber Charcoal grill with all original accessories</li>
+                <li>Slow 'n Sear insert for outstanding low-n-slow cooking and smoking</li>
+                <li>Beer can chicken accesory</li>
+                <li>Veggie basket accessory</li>
+                <li>Plastic cover</li>
+                <li>Includes a little charcoal and some wood chips!</li>
             </ul>
         `,
         images: [
-            "images/home/rowenta1.jpg",
-            "images/home/rowenta2.jpg",
-            "images/home/rowenta3.jpg"
+            "images/garden/weber1.jpg",
+            "images/garden/weber2.jpg",
+            "images/garden/weber3.jpg",
+            "images/garden/weber4.jpg",
+            "images/garden/weber5.jpg",
+            "images/garden/weber6.jpg",
+            "images/garden/weber7.jpg"
         ],
         sold: false
     },   
@@ -511,6 +515,7 @@ const items = [
 	],
         sold: false
     },
+/*
     {
         id: 21,
         title: "Canon Printer/Scanner",
@@ -541,6 +546,7 @@ const items = [
 	],
         sold: false
     },
+*/
     {
         id: 22,
         title: "LG 50-inch Television",
@@ -561,6 +567,113 @@ const items = [
 	    "images/home/lgtv3.jpg"
 	],
         sold: false
-    }
-
+    },
+    {
+        id: 23,
+        title: "Rowenta Focus Excel Iron",
+        price: "€25",
+        description: `
+            <p>This is a Rowenta Focus Excel DW5220 iron</p>
+            <p>Features:</p>
+            <ul>
+            <li>2700 Watts Power</li>
+	    <li>Excellent steam diffusion</li>
+	    <li>High precision tip</li>
+	    <li>Easy filling and anti-drip</li>
+	    <li>Made in Germany</li>
+            </ul>
+        `,
+        images: [
+            "images/home/iron1.jpg",
+	    "images/home/iron2.jpg",
+	    "images/home/iron3.jpg",
+	    "images/home/iron4.jpg"
+	],
+        sold: false
+    },
+    {
+        id: 24,
+        title: "Heavy-Duty Ironing Board",
+        price: "€25",
+        description: `
+            <p>This is a lightly-used, heavy-duty ironing board</p>
+            <p>Features:</p>
+            <ul>
+            <li>Excellent stability</li>
+	    <li>Sturdy</li>
+	    <li>Includes a second ironing pad</li>
+	    </ul>
+        `,
+        images: [
+            "images/home/ironboard1.jpg",
+	    "images/home/ironboard2.jpg",
+	    "images/home/ironboard3.jpg"
+	],
+        sold: false
+    },
+    {
+        id: 25,
+        title: "New Wood Shelves Stand",
+        price: "€10",
+        description: `
+            <p>This is a brand new IKEA Albert stand</p>
+            <p>Features:</p>
+            <ul>
+            <li>Still in the original packaging</li>
+	    <li>Solid wood stand with 4 shelves</li>
+	    <li>Assembly required</li>
+	    </ul>
+        `,
+        images: [
+            "images/home/ikeaalbert1.avif",
+	    "images/home/ikeaalbert2.jpg",
+	    "images/home/ikeaalbert3.jpg",
+            "images/home/ikeaalbert4.avif"
+	],
+        sold: false
+    },
+    {
+        id: 26,
+        title: "De Longhi Radiator Heater",
+        price: "€30",
+        description: `
+            <p>This is a De Longhi Dragon 4 oil-filled radiator space heater in very good condition</p>
+            <p>Features:</p>
+            <ul>
+            <li>1500 Watts power</li>
+	    <li>Three power settings</li>
+	    <li>Built-in thermostat</li>
+	    <li>Smooth rolling coaster wheels</li>
+	    </ul>
+        `,
+        images: [
+            "images/home/oilheater1.jpg",
+	    "images/home/oilheater2.jpg",
+	    "images/home/oilheater3.jpg"
+	],
+        sold: false
+    },
+    {
+        id: 27,
+        title: "Air Travel Pet Crate for Cat or Small Dog",
+        price: "€30",
+        description: `
+            <p>This is a Petmate SkyKennel Ultra Crate suitable for Air Travel</p>
+            <p>Features:</p>
+            <ul>
+            <li>Suitable for a cat or small dog</li>
+	    <li>Very sturdy</li>
+	    <li>Top is screwed on  No tools required</li>
+            </ul>
+        `,
+        images: [
+            "images/home/skykennel1.jpg",
+	    "images/home/skykennel2.jpg",
+	    "images/home/skykennel3.jpg",
+	    "images/home/skykennel4.jpg",
+	    "images/home/skykennel5.jpg"
+	],
+        sold: false
+    },
+   
 ]
