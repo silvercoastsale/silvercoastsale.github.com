@@ -550,7 +550,7 @@ const items = [
     {
         id: 22,
         title: "LG 50-inch Television",
-        price: "€150",
+        price: "€30",
         description: `
             <p>This is an LG 50PA4500 Plasma Television with Stand</p>
             <p>Features:</p>
