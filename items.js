@@ -207,7 +207,7 @@ const items = [
             "images/tools/brad_nailer2.jpg"
         ],
         sold: false
-    },
+/*
     {
         id: 9,
         title: "Crock-Pot 4.7 liter Slow Cooker",
@@ -228,6 +228,7 @@ const items = [
         ],
         sold: true
     },
+*/
     {
         id: 10,
         title: "Bosch Universal Kitchen Machine",
