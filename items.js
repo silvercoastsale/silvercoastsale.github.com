@@ -46,7 +46,7 @@ const items = [
             The well-padded seat is very comfortable. Designed for riding in a more upright position for greater comfort.</p>
             <p>Features:</p>
             <ul>
-                <li>Aluminium frame with top bar - L size - ideal for riders 5'10" to 6'1" tall.</li>
+                <li>Aluminium frame with top bar - M size - ideal for riders 5'4" (1.63m) to 5'10" (1.78m) tall.</li>
                 <li>Quick release alloy hubs - XTB 26 inch</li>
                 <li>Arisun Metro Cruiser tires</li>
                 <li>24 gears with easy Shimano Rapid Fire trigger shifters</li>
