@@ -443,6 +443,7 @@ const items = [
         ],
         sold: false
     },
+    /*
     {
         id: 18,
         title: "Miele Vacuum Cleaner",
@@ -468,6 +469,7 @@ const items = [
         ],
         sold: false
     },
+    */
     {
         id: 19,
         title: "Weber MasterTouch Charcoal Grill Kit",
