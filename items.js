@@ -226,7 +226,7 @@ const items = [
         images: [
             "images/kitchen/crockpot_manual.jpg",
         ],
-        sold: false
+        sold: true
     },
     {
         id: 10,
