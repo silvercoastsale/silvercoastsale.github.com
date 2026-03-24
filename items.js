@@ -120,7 +120,7 @@ const items = [
             "images/tools/sharpener4.jpg",
             "images/tools/sharpener5.jpg"        
         ],
-        sold: false
+        sold: true
     },
     {
         id: 5,
@@ -206,7 +206,7 @@ const items = [
             "images/tools/brad_nailer1.jpg",
             "images/tools/brad_nailer2.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 9,
@@ -392,7 +392,7 @@ const items = [
             "images/tools/wet_dry_vac3.webp",
             "images/tools/wet_dry_vac4.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 16,
