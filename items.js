@@ -591,7 +591,7 @@ const items = [
 	    "images/home/iron3.jpg",
 	    "images/home/iron4.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 24,
