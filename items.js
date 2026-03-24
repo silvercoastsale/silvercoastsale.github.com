@@ -567,7 +567,7 @@ const items = [
         "images/home/television1.jpg",
 	    "images/home/television2.jpg",
 	    "images/home/television3.jpg",
-        "images/home/television4,jpg"
+        "images/home/television4.jpg"
 	],
         sold: false
     },
