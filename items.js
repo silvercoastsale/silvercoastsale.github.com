@@ -226,7 +226,7 @@ const items = [
         images: [
             "images/kitchen/crockpot_manual.jpg",
         ],
-        sold: false
+        sold: true
     },
     {
         id: 10,
@@ -250,7 +250,7 @@ const items = [
             "images/kitchen/stand_mixer1.webp",
             "images/kitchen/stand_mixer_manual.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 11,
@@ -282,7 +282,7 @@ const items = [
             "images/kitchen/yogurt_maker_cups.jpg",
             "images/kitchen/yogurt_maker_manual.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 12,
@@ -336,7 +336,7 @@ const items = [
             "images/kitchen/moulinex_blender2.jpg",
             "images/kitchen/moulinex_blender3.jpg",
         ],
-        sold: false
+        sold: faltruese
     },
     {
         id: 14,
@@ -515,7 +515,7 @@ const items = [
 	    "images/kitchen/waffle_iron2.jpg",
 	    "images/kitchen/waffle_iron3.jpg"
 	],
-        sold: false
+        sold: true
     },
 /*
     {
