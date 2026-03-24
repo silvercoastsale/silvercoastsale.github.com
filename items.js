@@ -336,7 +336,7 @@ const items = [
             "images/kitchen/moulinex_blender2.jpg",
             "images/kitchen/moulinex_blender3.jpg",
         ],
-        sold: faltruese
+        sold: true
     },
     {
         id: 14,
