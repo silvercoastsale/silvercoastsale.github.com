@@ -133,7 +133,7 @@ const items = [
             "images/tools/trigger_clamps1.jpg",
             "images/tools/trigger_clamps2.jpg"        
         ],
-        sold: false
+        sold: true
     },
     {
         id: 6,
@@ -158,7 +158,7 @@ const items = [
         images: [
             "images/tools/router1.jpg"
         ],
-        sold: false
+        sold: true
     },
      {
         id: 7,
@@ -368,7 +368,7 @@ const items = [
             "images/tools/pressure_washer6.jpg",
             "images/tools/pressure_washer8.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 15,
@@ -653,7 +653,7 @@ const items = [
 	    "images/home/oilheater2.jpg",
 	    "images/home/oilheater3.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 27,
