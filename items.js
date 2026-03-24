@@ -182,7 +182,7 @@ const items = [
         images: [
             "images/tools/glue_gun1.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 8,
@@ -632,7 +632,7 @@ const items = [
 	    "images/home/ikeaalbert3.jpg",
             "images/home/ikeaalbert4.avif"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 26,
