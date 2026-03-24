@@ -46,7 +46,7 @@ const items = [
             The well-padded seat is very comfortable. Designed for riding in a more upright position for greater comfort.</p>
             <p>Features:</p>
             <ul>
-                <li>Aluminium frame with top bar - M size - ideal for riders 5'4" (1.63m) to 5'10" (1.78m) tall.</li>
+                <li>Aluminium frame with top bar - L size - ideal for riders 5'10" to 6'1" tall.</li>
                 <li>Quick release alloy hubs - XTB 26 inch</li>
                 <li>Arisun Metro Cruiser tires</li>
                 <li>24 gears with easy Shimano Rapid Fire trigger shifters</li>
@@ -207,7 +207,7 @@ const items = [
             "images/tools/brad_nailer2.jpg"
         ],
         sold: false
-/*
+    },
     {
         id: 9,
         title: "Crock-Pot 4.7 liter Slow Cooker",
@@ -226,9 +226,8 @@ const items = [
         images: [
             "images/kitchen/crockpot_manual.jpg",
         ],
-        sold: true
+        sold: false
     },
-*/
     {
         id: 10,
         title: "Bosch Universal Kitchen Machine",
@@ -444,7 +443,6 @@ const items = [
         ],
         sold: false
     },
-    /*
     {
         id: 18,
         title: "Miele Vacuum Cleaner",
@@ -470,7 +468,6 @@ const items = [
         ],
         sold: false
     },
-    */
     {
         id: 19,
         title: "Weber MasterTouch Charcoal Grill Kit",
