@@ -678,7 +678,7 @@ const items = [
 	],
         sold: false
     },
-        {
+    {
         id: 28,
         title: "Armchairs",
         price: "€40 each",
@@ -696,8 +696,7 @@ const items = [
 	],
         sold: false
     },
-        },
-        {
+    {
         id: 29,
         title: "Custom Wood Slab Table",
         price: "€125",
@@ -718,4 +717,23 @@ const items = [
 	],
         sold: false
     },
+    {
+        id: 30
+        title: "Stool/Plant Stand",
+        price: "€10",
+        description: `
+            <p>Black stool in good condition</p>
+            <p>Features:</p>
+            <ul>
+        <li>Measures 48cm x 42 cm x 45</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/slabtable1.jpg",
+            "images/furniture/slabtable2.jpg",
+            "images/furniture/slabtable3.jpg",
+	    "images/furniture/slabtable4.jpg"
+	],
+        sold: false
+    },  
 ]
