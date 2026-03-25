@@ -701,12 +701,12 @@ const items = [
         title: "Custom Wood Slab Table",
         price: "€125",
         description: `
-            <p>Splendid one-of-a-kind table</p>
+            <p>Splendid "one of a kind" table</p>
             <p>Features:</p>
             <ul>
             <li>Solid wood and wrought iron</li>
 	        <li>Beautifully finished</li>
-        <li>Measures 65cm x 60 cm x 36</li>
+        <li>Measures 65cm x 60 cm x 36 cm</li>
             </ul>
         `,
         images: [
@@ -719,13 +719,13 @@ const items = [
     },
     {
         id: 30
-        title: "Stool/Plant Stand",
+        title: "Stool - Plant Stand",
         price: "€10",
         description: `
             <p>Black stool in good condition</p>
             <p>Features:</p>
             <ul>
-        <li>Measures 48cm x 42 cm x 45</li>
+        <li>Measures 48cm x 42 cm x 45 cm</li>
             </ul>
         `,
         images: [
