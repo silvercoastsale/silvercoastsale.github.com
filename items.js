@@ -72,7 +72,7 @@ const items = [
             "images/bikes/wbike08.jpg",
             "images/bikes/bike_manual.jpg"
         ],
-        sold: false
+        sold: true
     },
 /*   
     {
@@ -312,7 +312,7 @@ const items = [
             "images/kitchen/tea_kettle1.jpg",
             "images/kitchen/tea_kettle2.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 13,
@@ -441,7 +441,7 @@ const items = [
             "images/home/trotec_dehumidifier3.jpg",
             "images/home/trotec_dehumidifier4.jpg"
         ],
-        sold: false
+        sold: true
     },
 /*
     {
@@ -496,7 +496,7 @@ const items = [
             "images/garden/weber6.jpg",
             "images/garden/weber7.jpg"
         ],
-        sold: false
+        sold: true
     },   
     {
         id: 20,
@@ -676,7 +676,7 @@ const items = [
 	    "images/home/skykennel4.jpg",
 	    "images/home/skykennel5.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 28,
