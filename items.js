@@ -696,7 +696,6 @@ const items = [
 	],
         sold: false
     },
-/*
     {
         id: 29,
         title: "Custom Wood Slab Table",
@@ -737,5 +736,4 @@ const items = [
 	],
         sold: false
     }  
-*/
 ]
