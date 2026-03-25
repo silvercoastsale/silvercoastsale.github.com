@@ -770,12 +770,12 @@ const items = [
             </ul>
         `,
         images: [
-            "images/furniture/dresser1.jpg",
-	        "images/furniture/dresser2.jpg",
-	        "images/furniture/dresser3.jpg",
-	        "images/furniture/dresser4.jpg",
-	        "images/furniture/dresser5.jpg",
-	        "images/furniture.dresser6.jpg"
+            "images/furniture/whitedresser1.jpg",
+	        "images/furniture/whitedresser2.jpg",
+	        "images/furniture/whitedresser3.jpg",
+	        "images/furniture/whitedresser4.jpg",
+	        "images/furniture/whitedresser5.jpg",
+	        "images/furniture.whitedresser6.jpg"
 	    ],
         sold: false
     },
