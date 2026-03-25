@@ -775,7 +775,7 @@ const items = [
 	        "images/furniture/whitedresser3.jpg",
 	        "images/furniture/whitedresser4.jpg",
 	        "images/furniture/whitedresser5.jpg",
-	        "images/furniture.whitedresser6.jpg"
+	        "images/furniture/whitedresser6.jpg"
 	    ],
         sold: false
     },
