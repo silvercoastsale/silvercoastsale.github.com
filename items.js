@@ -678,5 +678,23 @@ const items = [
 	],
         sold: false
     },
+        {
+        id: 28,
+        title: "Armchairs",
+        price: "€40 each",
+        description: `
+            <p>Comfortable armchairs</p>
+            <p>Features:</p>
+            <ul>
+            <li>Upholstered in sand colored fabric</li>
+	    <li>Blond wood legs</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/armchair1.jpg",
+	    "images/furniture/armchair2.jpg"
+	],
+        sold: false
+    },
    
 ]
