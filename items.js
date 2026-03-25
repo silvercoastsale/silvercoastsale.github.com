@@ -696,5 +696,26 @@ const items = [
 	],
         sold: false
     },
-   
+        },
+        {
+        id: 29,
+        title: "Custom Wood Slab Table",
+        price: "€125",
+        description: `
+            <p>Splendid one-of-a-kind table</p>
+            <p>Features:</p>
+            <ul>
+            <li>Solid wood and wrought iron</li>
+	        <li>Beautifully finished</li>
+        <li>Measures 65cm x 60 cm x 36</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/slabtable1.jpg",
+            "images/furniture/slabtable2.jpg",
+            "images/furniture/slabtable3.jpg",
+	    "images/furniture/slabtable4.jpg"
+	],
+        sold: false
+    },
 ]
