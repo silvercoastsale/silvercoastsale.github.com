@@ -735,5 +735,5 @@ const items = [
 	    "images/furniture/slabtable4.jpg"
 	],
         sold: false
-    },  
+    }  
 ]
