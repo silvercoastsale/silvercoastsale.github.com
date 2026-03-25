@@ -816,4 +816,41 @@ const items = [
 	    ],
         sold: false
     },
+    {
+        id: 35,
+        title: "Lamps",
+        price: "€25 for the pair",
+        description: `
+            <p>Table lamps in good condition</p>
+            <p>Features:</p>
+            <ul>
+	        <li>Great for nighstands, sofa tables, sideboards etc.</li>
+	        <li>Measurements: 25 cm diameter shade 58cm high</li>
+            </ul>
+        `,
+        images: [
+            "images/home/tablelamp1.jpg"
+	    ],
+        sold: false
+    },
+    {
+        id: 36,
+        title: "Glass Lamps",
+        price: "€20 for the pair",
+        description: `
+            <p>Small glass lamps in good condition</p>
+            <p>Features:</p>
+            <ul>
+	        <li>Great for nighstands, sofa tables, sideboards etc.</li>
+            <li>Frosted blue glass provides soft lighting</li>
+	        <li>Measurements: 10cm x 10cm x 22cm</li>
+            </ul>
+        `,
+        images: [
+            "images/home/bluelamps1.jpg",
+            "images/home/bluelamps2.jpg",
+            "images/home/bluelamps3.jpg"
+	    ],
+        sold: false
+    },
 ]
