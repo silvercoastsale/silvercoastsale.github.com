@@ -717,6 +717,7 @@ const items = [
 	],
         sold: false
     },
+/*
     {
         id: 30
         title: "Stool - Plant Stand",
@@ -735,5 +736,7 @@ const items = [
 	    "images/furniture/slabtable4.jpg"
 	],
         sold: false
-    }  
+    }
+*/
+
 ]
