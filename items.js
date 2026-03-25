@@ -734,6 +734,26 @@ const items = [
 	    "images/furniture/stool3.jpg"
 	],
         sold: false
+    },
+    {
+        id: 31,
+        title: "Dining Chair",
+        price: "€25 each",
+        description: `
+            <p>Dining chairs - two available</p>
+            <p>Features:</p>
+            <ul>
+            <li>Light brown frame with beige fabric cover</li>
+            <li>Comfortable padded seat</li>
+            <li>Cover is removable & washable</li>
+            <li>Sturdy solid wood frame</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/stool1.jpg",
+            "images/furniture/stool2.jpg",
+	    "images/furniture/stool3.jpg"
+	],
+        sold: false
     }
-
 ]
