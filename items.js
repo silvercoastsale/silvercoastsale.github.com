@@ -798,4 +798,22 @@ const items = [
 	    ],
         sold: false
     },
+    {
+        id: 34,
+        title: "TV credenza",
+        price: "€45",
+        description: `
+            <p>White credenza ideal for TV</p>
+            <p>Features:</p>
+            <ul>
+	        <li>Large drawers with frosted glass front</li>
+	        <li>Convenient outlets at the rear for easy routing of cables</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/credenza1.jpg",
+	        "images/furniture/credenza2.jpg"
+	    ],
+        sold: false
+    },
 ]
