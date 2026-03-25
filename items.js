@@ -729,10 +729,9 @@ const items = [
             </ul>
         `,
         images: [
-            "images/furniture/slabtable1.jpg",
-            "images/furniture/slabtable2.jpg",
-            "images/furniture/slabtable3.jpg",
-	    "images/furniture/slabtable4.jpg"
+            "images/furniture/stool1.jpg",
+            "images/furniture/stool2.jpg",
+	    "images/furniture/stool3.jpg"
 	],
         sold: false
     }
