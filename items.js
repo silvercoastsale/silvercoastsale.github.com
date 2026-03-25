@@ -750,9 +750,9 @@ const items = [
             </ul>
         `,
         images: [
-            "images/furniture/stool1.jpg",
-            "images/furniture/stool2.jpg",
-	    "images/furniture/stool3.jpg"
+            "images/furniture/ikeachair1.jpg",
+            "images/furniture/ikeachair2.jpg",
+	    "images/furniture/ikeachair3.jpg"
 	],
         sold: false
     }
