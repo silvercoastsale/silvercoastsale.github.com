@@ -717,9 +717,8 @@ const items = [
 	],
         sold: false
     },
-/*
     {
-        id: 30
+        id: 30,
         title: "Stool - Plant Stand",
         price: "€10",
         description: `
@@ -737,6 +736,5 @@ const items = [
 	],
         sold: false
     }
-*/
 
 ]
