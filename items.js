@@ -755,5 +755,28 @@ const items = [
 	    "images/furniture/ikeachair3.jpg"
 	],
         sold: false
-    }
+    },
+    {
+        id: 32,
+        title: "White Dresser",
+        price: "€50",
+        description: `
+            <p>This is a white dresser in good condition</p>
+            <p>Features:</p>
+            <ul>
+            <li>Large drawers</li>
+	        <li>Ideal for any bedroom</li>
+	        <li>Measurements> 102cm x 45cm x 86cm</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/dresser1.jpg",
+	        "images/furniture/dresser2.jpg",
+	        "images/furniture/dresser3.jpg",
+	        "images/furniture/dresser4.jpg",
+	        "images/furniture/dresser5.jpg",
+	        "images/furniture.dresser6.jpg"
+	    ],
+        sold: false
+    },
 ]
