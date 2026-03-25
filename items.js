@@ -766,7 +766,7 @@ const items = [
             <ul>
             <li>Large drawers</li>
 	        <li>Ideal for any bedroom</li>
-	        <li>Measurements> 102cm x 45cm x 86cm</li>
+	        <li>Measurements: 102cm x 45cm x 86cm</li>
             </ul>
         `,
         images: [
@@ -776,6 +776,25 @@ const items = [
 	        "images/furniture/whitedresser4.jpg",
 	        "images/furniture/whitedresser5.jpg",
 	        "images/furniture/whitedresser6.jpg"
+	    ],
+        sold: false
+    },
+    {
+        id: 33,
+        title: "Nightstands",
+        price: "€30 each",
+        description: `
+            <p>Black nightstands with white drawers - 4 available</p>
+            <p>Features:</p>
+            <ul>
+	        <li>Ideal for any bedroom</li>
+	        <li>Measurements: 51cm x 40cm x 43cm</li>
+            </ul>
+        `,
+        images: [
+            "images/furniture/nightstand1.jpg",
+	        "images/furniture/nightstand2.jpg",
+	        "images/furniture/nightstand3.jpg"
 	    ],
         sold: false
     },
