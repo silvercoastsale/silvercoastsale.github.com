@@ -905,4 +905,22 @@ const items = [
 	    ],
         sold: false
     },
+    {
+        id: 39,
+        title: "Wand Blender",
+        price: "€20",
+        description: `
+            <p>Moulinex Wand Blender in good condition</p>
+            <p>Features:</p>
+            <ul>
+            <li>1,000 Watts power</li>
+	    <li>All accesories included</li>
+            </ul>
+        `,
+        images: [
+            "images/kitchen/wandblender1.jpg",
+	    "images/kitchen/wandblender2.jpg"
+	],
+        sold: false
+    }
 ]
