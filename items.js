@@ -854,4 +854,27 @@ const items = [
 	    ],
         sold: false
     },
+    {
+        id: 37,
+        title: "Patio Dining Set",
+        price: "€200",
+        description: `
+            <p>Table and four chairs for exterior dining in very good condition.</p>
+            <p>Features:</p>
+            <ul>
+	        <li>Stained wood and aluminium</li>
+            <li>Comfortable chairs that recline</li>
+	        <li>Table measurements: 150cm x 90cm x 74cm</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/patiotable1.jpg",
+            "images/garden/patiotable2.jpg",
+            "images/garden/patiotable3.jpg",
+            "images/garden/patiotable4.jpg",
+            "images/garden/patiotable5.jpg",
+            "images/garden/patiotable6.jpg"     
+	    ],
+        sold: false
+    },
 ]
