@@ -959,5 +959,26 @@ const items = [
         "images/kitchen/espresso5.jpg"
 	],
         sold: false
+    },
+    {
+        id: 42,
+        title: "Cake turntable and leveler",
+        price: "€7",
+        description: `
+            <p>Cake turntable and leveler for cake decoration</p>
+            <p>Features:</p>
+            <ul>
+            <li>28 cm turntable on a stand</li>
+            <li>Wilton brand cake leveler</li>
+            <li>Both items are in excellent condition</li>
+            </ul>
+        `,
+        images: [
+            "images/kitchen/cake1.jpg",
+	        "images/kitchen/cake2.jpg",
+            "images/kitchen/cake3.jpg",
+            "images/kitchen/cake4.jpg",
+	],
+        sold: false
     }
 ]
