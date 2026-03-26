@@ -979,5 +979,23 @@ const items = [
             "images/kitchen/cake4.jpg",
 	],
         sold: false
+    },
+    {
+        id: 43,
+        title: "Decorative Ceramic Plate",
+        price: "€7",
+        description: `
+            <p>Beautiful ceramic hand-painted plate </p>
+            <p>Features:</p>
+            <ul>
+            <li>44 cm diameter</li>
+            <li>Hand painted</li>
+            <li>Made in Mexico</li>
+            </ul>
+        `,
+        images: [
+            "images/kitchen/talavera1.jpg"
+	],
+        sold: false
     }
 ]
