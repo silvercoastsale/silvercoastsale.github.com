@@ -997,5 +997,24 @@ const items = [
             "images/kitchen/talavera1.jpg"
 	],
         sold: false
+    },
+    {
+        id: 44,
+        title: "Decorative Pillows",
+        price: "€50",
+        description: `
+            <p>Beautiful set of six decorative pillows </p>
+            <p>Features:</p>
+            <ul>
+            <li>Two large 65cm x 75cm solid color, one side burgundy the other mustard</li>
+            <li>Four medium sized 45cm x 45cm with sea life fabric, removable covers</li>
+            </ul>
+        `,
+        images: [
+            "images/home/starfishpillow1.jpg",
+            "images/home/starfishpillow2.jpg",
+            "images/home/starfishpillow3.jpg"
+	],
+        sold: false
     }
 ]
