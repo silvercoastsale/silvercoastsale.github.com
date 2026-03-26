@@ -983,7 +983,7 @@ const items = [
     {
         id: 43,
         title: "Decorative Ceramic Plate",
-        price: "€7",
+        price: "€10",
         description: `
             <p>Beautiful ceramic hand-painted plate </p>
             <p>Features:</p>
