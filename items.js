@@ -1016,5 +1016,22 @@ const items = [
             "images/home/starfishpillow3.jpg"
 	],
         sold: false
+    },
+    {
+        id: 45,
+        title: "Christmas Pillows",
+        price: "€15 for both",
+        description: `
+            <p>Beautiful set of two decorative pillows </p>
+            <p>Features:</p>
+            <ul>
+            <li>Two medium sized 38cm x 38cm</li>
+            <li>Covers in Christmas theme</li>
+            </ul>
+        `,
+        images: [
+            "images/home/christmaspillow1.jpg"
+	],
+        sold: false
     }
 ]
