@@ -872,8 +872,7 @@ const items = [
             "images/garden/patiotable2.jpg",
             "images/garden/patiotable3.jpg",
             "images/garden/patiotable4.jpg",
-            "images/garden/patiotable5.jpg",
-            "images/garden/patiotable6.jpg"   
+            "images/garden/patiotable5.jpg" 
 	    ],
         sold: false
     },
