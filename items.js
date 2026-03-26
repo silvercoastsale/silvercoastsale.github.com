@@ -559,8 +559,9 @@ const items = [
             <ul>
             <li>1024 x 768 HD resolution (720p)</li>
 	    <li>HDMI and USB 2.0 Inputs</li>
-	    <li>Dolby Digital decoderAll original accesories included</li>
+	    <li>Dolby Digital decoder</li>
 	    <li>Includes heavy duty stand and wall mounting bracket</li>
+        <li>This is not a smart TV</li>
             </ul>
         `,
         images: [
