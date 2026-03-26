@@ -1033,5 +1033,23 @@ const items = [
             "images/home/christmaspillows1.jpg"
 	],
         sold: false
+    },
+    {
+        id: 46,
+        title: "Hall Rug",
+        price: "€20",
+        description: `
+            <p>Lovely rug ideal for a hallway </p>
+            <p>Features:</p>
+            <ul>
+            <li>Cocoa and cream colored pattern</li>
+            <li>Measures 200 cm x 60cm</li>
+            </ul>
+        `,
+        images: [
+            "images/home/hallrug1.jpg",
+            "images/home/hallrug2.jpg"
+	],
+        sold: false
     }
 ]
