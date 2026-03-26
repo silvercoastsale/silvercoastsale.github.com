@@ -923,4 +923,21 @@ const items = [
 	],
         sold: false
     }
+    {
+        id: 40,
+        title: "Popcorn Machine",
+        price: "€20",
+        description: `
+            <p>Liebfeld Popcorn Machine</p>
+            <p>Features:</p>
+            <ul>
+            <li>Air popper - enjoy popcorn without the fat</li>
+            </ul>
+        `,
+        images: [
+            "images/kitchen/popcorn1.jpg",
+	    "images/kitchen/popcorn2.jpg"
+	],
+        sold: false
+    }
 ]
