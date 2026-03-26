@@ -877,6 +877,32 @@ const items = [
 	    ],
         sold: false
     },
- /*
- */
+    {
+        id: 38,
+        title: "Patio Umbrella",
+        price: "€150",
+        description: `
+            <p>Large tan patio umbrella with heavy duty stand in very good condition</p>
+            <p>Features:</p>
+            <ul>
+	        <li>Square umbrella 280cm x 280 cm x 270cm</li>
+            <li>Integrated solar-powered LED lighting built into the frame</li>
+	        <li>Smooth crank makes it easy to raise</li>
+            <li>Heavy duty stand with rope handles</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/umbrella1.jpg",
+            "images/garden/umbrella2.jpg",
+            "images/garden/umbrella3.jpg",
+            "images/garden/umbrella4.jpg",
+            "images/garden/umbrella5.jpg",
+            "images/garden/umbrella6.jpg",
+            "images/garden/umbrella7.jpg",
+            "images/garden/umbrella8.jpg",
+            "images/garden/umbrella9.jpg",
+            "images/garden/umbrella10.jpg"   
+	    ],
+        sold: false
+    },
 ]
