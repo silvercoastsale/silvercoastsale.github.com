@@ -1051,5 +1051,22 @@ const items = [
             "images/home/hallrug2.jpg"
 	],
         sold: false
+    },
+    {
+        id: 47,
+        title: "Decorative Pillows",
+        price: "€20 for the pair",
+        description: `
+            <p>Large pillows in sealife fabric </p>
+            <p>Features:</p>
+            <ul>
+            <li>Removable covers</li>
+            <li>Measure 45cm x 45cm</li>
+            </ul>
+        `,
+        images: [
+            "images/home/fishpillow1.jpg"
+	],
+        sold: false
     }
 ]
