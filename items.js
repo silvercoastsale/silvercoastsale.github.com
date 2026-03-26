@@ -939,5 +939,25 @@ const items = [
 	    "images/kitchen/popcorn2.jpg"
 	],
         sold: false
+    },
+    {
+        id: 41,
+        title: "Espresso Cups",
+        price: "€10",
+        description: `
+            <p>Set of four espresso cups with saucers</p>
+            <p>Features:</p>
+            <ul>
+            <li>Each cup has its own beautiful design</li>
+            </ul>
+        `,
+        images: [
+            "images/kitchen/espresso1.jpg",
+	        "images/kitchen/espresso2.jpg",
+            "images/kitchen/espresso3.jpg",
+            "images/kitchen/espresso4.jpg",
+        "images/kitchen/espresso5.jpg"
+	],
+        sold: false
     }
 ]
