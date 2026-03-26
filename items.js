@@ -1030,7 +1030,7 @@ const items = [
             </ul>
         `,
         images: [
-            "images/home/christmaspillow1.jpg"
+            "images/home/christmaspillows1.jpg"
 	],
         sold: false
     }
