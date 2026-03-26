@@ -922,7 +922,7 @@ const items = [
 	    "images/kitchen/wandblender2.jpg"
 	],
         sold: false
-    }
+    },
     {
         id: 40,
         title: "Popcorn Machine",
