@@ -1074,7 +1074,7 @@ const items = [
         title: "Rolling Craft Case",
         price: "€25",
         description: `
-            <p>Soft side craft case on wheels with extendind handle</p>
+            <p>Soft side craft case on wheels with extending handle</p>
             <p>Features:</p>
             <ul>
             <li>Brown fabric with pink trim</li>
