@@ -1068,6 +1068,32 @@ const items = [
             "images/home/fishpillow1.jpg"
 	],
         sold: false
+    },
+    {
+        id: 48,
+        title: "Rolling Craft Case",
+        price: "€25",
+        description: `
+            <p>Soft side craft case on wheels with extendind handle</p>
+            <p>Features:</p>
+            <ul>
+            <li>Brown fabric with pink trim</li>
+            <li>Two exterior side pockets plus one in the front (can be closed)</li>
+            <li>Easy rolling wheels and extendable handle for easy transport</li>
+            <li>Removable compartmentalised insert and divider</li>
+            <li>Measures 46cm x 31cm x 48cm (98 cm high with handle raised)</li>
+            </ul>
+        `,
+        images: [
+            "images/crafts/craftcase1.jpg",
+            "images/crafts/craftcase2.jpg",
+            "images/crafts/craftcase3.jpg",
+            "images/crafts/craftcase4.jpg",
+            "images/crafts/craftcase5.jpg",
+            "images/crafts/craftcase6.jpg",
+            "images/crafts/craftcase7.jpg"
+	],
+        sold: false
     }
-    
+
 ]
