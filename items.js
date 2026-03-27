@@ -920,7 +920,7 @@ const items = [
             "images/kitchen/wandblender1.jpg",
 	    "images/kitchen/wandblender2.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 40,
@@ -1106,7 +1106,7 @@ const items = [
             <li>Wireless connectivity to TV</li>
             <li>Wireless subwoofer</li>
             <li>Single cable HDMI ARC</li>
-            <li>S-Force PRO Front SUrround creates cinematic audio</li>
+            <li>S-Force PRO Front Surround creates cinematic audio</li>
             <li>Wall-mountable</li>
             </ul>
         `,
