@@ -1093,6 +1093,30 @@ const items = [
             "images/crafts/craftcase7.jpg"
 	],
         sold: false
+    },
+        {
+        id: 49,
+        title: "SONY Soundbar",
+        price: "€50",
+        description: `
+            <p>SONY 2.1ch Soundbar with wireless subwoofer</p>
+            <p>Features:</p>
+            <ul>
+            <li>320 Watts Total Output</li>
+            <li>Wireless connectivity to TV</li>
+            <li>Wireless subwoofer</li>
+            <li>Single cable HDMI ARC</li>
+            <li>S-Force PRO Front SUrround creates cinematic audio</li>
+            <li>Wall-mountable</li>
+            </ul>
+        `,
+        images: [
+            "images/home/soundbar1.webp",
+            "images/home/soundbar2.webp",
+            "images/home/soundbar3.webp",
+            "images/home/soundbar4.webp"
+	],
+        sold: false
     }
 
 ]
