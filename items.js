@@ -1069,4 +1069,5 @@ const items = [
 	],
         sold: false
     }
+    
 ]
