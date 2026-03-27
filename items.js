@@ -1090,7 +1090,6 @@ const items = [
             "images/crafts/craftcase3.jpg",
             "images/crafts/craftcase4.jpg",
             "images/crafts/craftcase5.jpg",
-            "images/crafts/craftcase6.jpg",
             "images/crafts/craftcase7.jpg"
 	],
         sold: false
