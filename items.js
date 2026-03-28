@@ -570,7 +570,7 @@ const items = [
 	    "images/home/television3.jpg",
         "images/home/television4.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 23,
@@ -832,7 +832,7 @@ const items = [
         images: [
             "images/home/tablelamp1.jpg"
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 36,
@@ -874,7 +874,7 @@ const items = [
             "images/garden/patiotable4.jpg",
             "images/garden/patiotable5.jpg" 
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 38,
@@ -957,7 +957,7 @@ const items = [
             "images/kitchen/espresso4.jpg",
         "images/kitchen/espresso5.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 42,
