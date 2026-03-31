@@ -73,8 +73,7 @@ const items = [
             "images/bikes/bike_manual.jpg"
         ],
         sold: true
-    },
-/*   
+    },   
     {
         id: 3,
         title: "Bosch Corded Circular Saw",
@@ -105,7 +104,6 @@ const items = [
         ],
         sold: false
     },
-*/
     {
         id: 4,
         title: "Parkside Benchtop Sharpener",
@@ -598,7 +596,7 @@ const items = [
     {
         id: 24,
         title: "Heavy-Duty Ironing Board",
-        price: "€25",
+        price: "€20",
         description: `
             <p>This is a lightly-used, heavy-duty ironing board</p>
             <p>Features:</p>
@@ -716,7 +714,7 @@ const items = [
             "images/furniture/slabtable3.jpg",
 	    "images/furniture/slabtable4.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 30,
@@ -778,7 +776,7 @@ const items = [
 	        "images/furniture/whitedresser5.jpg",
 	        "images/furniture/whitedresser6.jpg"
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 33,
@@ -797,7 +795,7 @@ const items = [
 	        "images/furniture/nightstand2.jpg",
 	        "images/furniture/nightstand3.jpg"
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 34,
@@ -815,7 +813,7 @@ const items = [
             "images/furniture/credenza1.jpg",
 	        "images/furniture/credenza2.jpg"
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 35,
