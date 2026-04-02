@@ -1115,7 +1115,7 @@ const items = [
             "images/home/soundbar4.webp"
 	],
         sold: true
-    }
+    },
     {
         id: 50,
         title: "Cooler Table",
