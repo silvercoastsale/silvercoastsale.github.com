@@ -900,7 +900,7 @@ const items = [
             "images/garden/umbrella9.jpg",
             "images/garden/umbrella10.jpg"   
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 39,
@@ -1113,6 +1113,50 @@ const items = [
             "images/home/soundbar2.webp",
             "images/home/soundbar3.webp",
             "images/home/soundbar4.webp"
+	],
+        sold: true
+    }
+    {
+        id: 50,
+        title: "Cooler Table",
+        price: "€25",
+        description: `
+            <p>This is a cooler that doubles as a table, great for the garden or poolisde!</p>
+            <p>Features:</p>
+            <ul>
+            <li>Off white color</li>
+            <li>Table can be locked in the open position</li>
+            <li>Keeps your beverages ice cold!</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/cooler1.jpg",
+            "images/garden/cooler2.jpg",
+            "images/garden/cooler3.jpg",
+            "images/garden/cooler4.jpg"
+	],
+        sold: false
+    },
+    {
+        id: 51,
+        title: "Lawn Chairs",
+        price: "€50 for both",
+        description: `
+            <p>This is a pair of solid wood lawn chairs with corded seating</p>
+            <p>Features:</p>
+            <ul>
+            <li>Solid wood frame stained brown</li>
+            <li>Can be folded for easy storage</li>
+            <li>Convenient and comfotable</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/lawnchair1.jpg",
+            "images/garden/lawnchair2.jpg",
+            "images/garden/lawnchair3.jpg",
+            "images/garden/lawnchair4.jpg",
+            "images/garden/lawnchair5.jpg"
+            
 	],
         sold: false
     }
