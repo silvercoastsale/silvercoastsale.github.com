@@ -102,7 +102,7 @@ const items = [
 	    "images/tools/circ_saw4.jpg",
 	    "images/tools/circ_saw5.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 4,
@@ -611,7 +611,7 @@ const items = [
 	    "images/home/ironboard2.jpg",
 	    "images/home/ironboard3.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 25,
@@ -693,7 +693,7 @@ const items = [
             "images/furniture/armchair1.jpg",
 	    "images/furniture/armchair2.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 29,
