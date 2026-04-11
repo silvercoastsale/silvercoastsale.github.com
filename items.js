@@ -850,7 +850,7 @@ const items = [
             "images/home/bluelamps2.jpg",
             "images/home/bluelamps3.jpg"
 	    ],
-        sold: false
+        sold: true
     },
     {
         id: 37,
