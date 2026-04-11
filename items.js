@@ -34,7 +34,7 @@ const items = [
             "images/bikes/mbike08.jpg",
             "images/bikes/bike_manual.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 2,
@@ -414,7 +414,7 @@ const items = [
             "images/garden/pool_robot5.jpg",
             "images/garden/pool_robot2.jpg"
         ],
-        sold: false
+        sold: true
     },
     {
         id: 17,
@@ -753,7 +753,7 @@ const items = [
             "images/furniture/ikeachair2.jpg",
 	    "images/furniture/ikeachair3.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 32,
@@ -935,7 +935,7 @@ const items = [
             "images/kitchen/popcorn1.jpg",
 	    "images/kitchen/popcorn2.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 41,
@@ -994,7 +994,7 @@ const items = [
         images: [
             "images/kitchen/talavera1.jpg"
 	],
-        sold: false
+        sold: true
     },
     {
         id: 44,
@@ -1090,7 +1090,7 @@ const items = [
             "images/crafts/craftcase5.jpg",
             "images/crafts/craftcase7.jpg"
 	],
-        sold: false
+        sold: true
     },
         {
         id: 49,
