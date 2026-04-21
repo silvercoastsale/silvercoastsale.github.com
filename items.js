@@ -18,7 +18,7 @@ const items = [
     },
     {
         id: 53,
-        title: "Sterwing Hedge Trimmer",
+        title: "Sterwins Hedge Trimmer",
         price: "€50",
         description: `
             <p>Cordless hedge trimmer</p>
