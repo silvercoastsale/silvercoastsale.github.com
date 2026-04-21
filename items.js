@@ -1177,5 +1177,43 @@ const items = [
 	],
         sold: false
     },
+    {
+        id: 53,
+        title: "Sterwing Hedge Trimmer",
+        price: "€50",
+        description: `
+            <p>Cordless hedge trimmer</p>
+            <p>Features:</p>
+            <ul>
+            <li>Long reach</li>
+            <li>Adjustable head angle</li>
+            <li>Includes battery and charger</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/sterwins_trimmer.jpg"
+	],
+        sold: false
+    },
+    {
+        id: 54,
+        title: "Weed-Wacker and Leaf Blower/Vacuum",
+        price: "€120",
+        description: `
+            <p>Einhell Cordless Weed-Wacker and Leaf Blower/Vacuum</p>
+            <p>Features:</p>
+            <ul>
+            <li>Weed-Wacker with harness model Agillo 18/200</li>
+            <li>Leaf blower can aldo be used as a vacuum model Venturro 18V. Includes resusable bag</li>
+            <li>Both items are cordless - Charger and two batteries included</li>
+            <li>Will consider selling separately - first come gets charger</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/einhell_weed.jpg",
+            "images/garden/einhell_vacuum.jpg"
+	],
+        sold: false
+    }
 
 ]
