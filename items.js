@@ -53,7 +53,7 @@ const items = [
             "images/garden/einhell_vaccum.jpg"
 	],
         sold: false
-    }
+    },
     {
        id: 17,
         title: "Trotec Dehumidifier",
