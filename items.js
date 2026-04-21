@@ -1204,14 +1204,14 @@ const items = [
             <p>Features:</p>
             <ul>
             <li>Weed-Wacker with harness model Agillo 18/200</li>
-            <li>Leaf blower can aldo be used as a vacuum model Venturro 18V. Includes resusable bag</li>
+            <li>Leaf blower can aldo be used as a vaccum model Venturro 18V. Includes resusable bag</li>
             <li>Both items are cordless - Charger and two batteries included</li>
             <li>Will consider selling separately - first come gets charger</li>
             </ul>
         `,
         images: [
             "images/garden/einhell_weed.jpg",
-            "images/garden/einhell_vacuum.jpg"
+            "images/garden/einhell_vaccum.jpg"
 	],
         sold: false
     }
