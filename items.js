@@ -1197,7 +1197,7 @@ const items = [
     },
     {
         id: 54,
-        title: "Weed-Wacker and Leaf Blower/Vacuum",
+        title: "Weed-Wacker and Leaf Blower/Vaccum",
         price: "€120",
         description: `
             <p>Einhell Cordless Weed-Wacker and Leaf Blower/Vacuum</p>
