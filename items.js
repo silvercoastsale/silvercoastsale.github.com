@@ -1159,6 +1159,23 @@ const items = [
             
 	],
         sold: false
-    }
+    },
+    {
+        id: 52,
+        title: "Bosch Electric Mower",
+        price: "€55",
+        description: `
+            <p>Corded Electric Mower</p>
+            <p>Features:</p>
+            <ul>
+            <li>Bosch Model ARM 32 mower</li>
+            <li>In good condition</li>
+            </ul>
+        `,
+        images: [
+            "images/garden/bosch_mower.jpg"
+	],
+        sold: false
+    },
 
 ]
